@@ -5,19 +5,19 @@ Contents
 --------
 Right now this project only consists of
   * a very basic part for downloading the json data from the api (using wreq)
-  * json decoding into an algebratic data type (using the aeson library)
+  * json decoding into an algebraic data type (using the aeson library)
   * processing of the received data
-    * combining overlaping events (using a Semigroup instance)
+    * combining overlapping events (using a Semigroup instance)
     * converting lecturer and room shorthands to full/ descriptive names
     * removing unwanted parts
     * filtering the events by date
-  * a temporary Show instance for events for debuging purposes
+  * a temporary Show instance for events for debugging purposes
     
 Future plans
 ------------
 I intend to extend this project by adding
-  * a frontend, probably web based, potentialy using bootstrap, either:
+  * a frontend, probably web based, potentially using bootstrap, either:
     * static pages provided using a web server library like scotty, servant or snap
-    * dynamic pages writen in purescript which get the processed data from a rest api
+    * dynamic pages written in purescript which get the processed data from a rest api
   * new features regarding data processing
   * extensive configurability (maybe using dhal-lang)
