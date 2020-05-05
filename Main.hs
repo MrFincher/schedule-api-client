@@ -6,7 +6,7 @@
 {-# LANGUAGE ViewPatterns #-}
 
 module Main where
-import AesonDecode hiding (null) -- look at source and write needed part on my own?
+import AesonDecode hiding (null)
 import Control.Monad
 import Control.Lens
 import Data.Aeson
